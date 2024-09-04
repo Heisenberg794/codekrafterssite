@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/home_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Code Krafters • Join</title>
+    </head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">CODE <span>KRAFTERS</span></a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="ourteam.html">Our Team</a> 
+            <a href="ourwork.html">Our Work</a>
+            <a href="join.html" class="active">Join</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+
+<section class="joinus">
+    <div class="joinform">
+            <h1>Join Our Team</h1>
+            <form class="form-horizontal">
+                <fieldset>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label nam" for="Name">Name</label>  
+                  <div class="col-md-5">
+                  <input id="Name" name="Name" type="text" placeholder="Enter your name" class="form-control input-md" required="">
+                    
+                  </div>
+                </div>
+                
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label yr" for="year">Year</label>
+                  <div class="col-md-4">
+                  <div class="radio">
+                    <label class="rad-label" for="year-0">
+                      <input type="radio" class="rad-input" name="year" id="year-0" value="1">
+                      <div class="rad-design"></div>
+                      <div class="rad-text">1st</div>
+                    </label>
+                    <label class="rad-label" for="year-1">
+                      <input type="radio" class="rad-input" name="year" id="year-1" value="2">
+                      <div class="rad-design"></div>
+                      <div class="rad-text">2nd</div>
+                    </label>
+                    </div>
+                  <div class="radio">
+                    <label class="rad-label" for="year-2">
+                        <input type="radio" class="rad-input" name="year" id="year-2" value="3">
+                        <div class="rad-design"></div>
+                        <div class="rad-text">3rd</div>
+                      </label>
+                    </div>
+                  <div class="radio">
+                    <label class="rad-label" for="year-3">
+                        <input type="radio" class="rad-input" name="year" id="year-3" value="4">
+                        <div class="rad-design"></div>
+                        <div class="rad-text">4th</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Select Basic -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label dept" for="department">Department</label>
+                  <div class="col-md-5">
+                    <select id="department" name="department" class="form-control">
+                      <option value="CSE">CSE</option>
+                      <option value="AIDS">AIDS</option>
+                      <option value="AIML">AIML</option>
+                      <option value="IT">IT</option>
+                      <option value="ECE">ECE</option>
+                      <option value="EEE">EEE</option>
+                      <option value="EIE">EIE</option>
+                      <option value="MECH">MECH</option>
+                      <option value="CIVIL">CIVIL</option>
+                    </select>
+                  </div>
+                </div>
+
+
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label mai" for="email">Email</label>  
+                  <div class="col-md-5">
+                  <input id="email" name="email" type="text" placeholder="Enter your mail id" class="form-control input-md" required="">
+                    
+                  </div>
+                </div>
+                
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label dom" for="domain">Domain of Interest</label>
+                  <div class="col-md-4">
+                  <div class="radio">
+                    <label for="domain-0" class="rad-label">
+                      <input type="radio" class="rad-input" name="domain" id="domain-0" value="1">
+                      <div class="rad-design"></div>
+                      <div class="rad-text">Technical</div>
+                    </label>
+                    </div>
+                  <div class="radio">
+                    <label for="domain-1" class="rad-label">
+                      <input type="radio" class="rad-input" name="domain" id="domain-1" value="2">
+                        <div class="rad-design"></div>
+                        <div class="rad-text-dup">Non-Technical</div>
+                    </label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-md-4 control-label wing" for="wing">WING</label>
+                  <div class="col-md-5">
+                    <select id="wing" name="wing" class="form-control">
+                      <option value="Web Development">Web Development</option>
+                      <option value="App Development">App Development</option>
+                      <option value="DSA">DSA</option>
+                      <option value="UI/UX">UI/UX</option>
+                      <option value="AIML">AI/ML</option>
+                      <option value="Data Science">Data Science</option> 
+                      <option value="Outreach">Outreach</option>
+                      <option value="Open Source">Open Source</option>  
+                    </select>
+                  </div>
+                </div>
+                
+                <!-- Button -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label sub" for="submt"></label>
+                  <div class="col-md-4">
+                    <button id="submt" name="submt" class="btn btn-default">JOIN</button>
+                  </div>
+                </div>
+                
+                </fieldset>
+                </form>
+                
+    </div>
+</section>
+
+    <footer>
+        <p>Code Krafters &copy; 2024</p>
+    </footer>
+
+    <script src="home_script.js"></script>
+    <script src="/js/server.js"></script>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('joinForm');
+        form.addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+            
+            // Get form data
+            const formData = {
+                name: form.elements['Name'].value,
+                year: form.elements['year'].value,
+                department: form.elements['department'].value,
+                email: form.elements['email'].value,
+                domain: form.elements['domain'].value,
+                wing: form.elements['wing'].value
+            };
+    
+            // Send form data to server
+            fetch('/submit-form', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.text())
+            .then(data => {
+                console.log(data); // Log response from server
+                // Handle success or show a confirmation message
+            })
+            .catch(error => {
+                console.error('Error:', error); // Log any errors
+                // Handle error or show an error message
+            });
+        });
+    });
+    
+    </script>
+</body>
+</html>
